@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65076E581C3F46A400519A44 /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 65076E571C3F46A400519A44 /* Foundation+Log.m */; };
 		9A5BCB8F1C3CFBC40045B229 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5BCB8E1C3CFBC40045B229 /* main.m */; };
 		9A5BCB921C3CFBC40045B229 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5BCB911C3CFBC40045B229 /* AppDelegate.m */; };
 		9A5BCB951C3CFBC40045B229 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5BCB941C3CFBC40045B229 /* ViewController.m */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		65076E571C3F46A400519A44 /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
 		9A5BCB8A1C3CFBC40045B229 /* LocalPush.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalPush.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A5BCB8E1C3CFBC40045B229 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9A5BCB901C3CFBC40045B229 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 		9A5BCB811C3CFBC30045B229 = {
 			isa = PBXGroup;
 			children = (
+				65076E571C3F46A400519A44 /* Foundation+Log.m */,
 				9A5BCB8C1C3CFBC40045B229 /* LocalPush */,
 				9A5BCBA61C3CFBC40045B229 /* LocalPushTests */,
 				9A5BCBB11C3CFBC40045B229 /* LocalPushUITests */,
@@ -273,6 +276,7 @@
 				9A5BCB951C3CFBC40045B229 /* ViewController.m in Sources */,
 				9A5BCB921C3CFBC40045B229 /* AppDelegate.m in Sources */,
 				9A5BCB8F1C3CFBC40045B229 /* main.m in Sources */,
+				65076E581C3F46A400519A44 /* Foundation+Log.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +500,7 @@
 				9A5BCBB91C3CFBC40045B229 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A5BCBBA1C3CFBC40045B229 /* Build configuration list for PBXNativeTarget "LocalPushTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +509,7 @@
 				9A5BCBBC1C3CFBC40045B229 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A5BCBBD1C3CFBC40045B229 /* Build configuration list for PBXNativeTarget "LocalPushUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +518,7 @@
 				9A5BCBBF1C3CFBC40045B229 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
